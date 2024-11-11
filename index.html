@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Cabeçalho Fixo -->
+  <header class="cabecalho">
+    <h1>Essência Natural</h1>
+  </header>
+
+  <!-- Fundo Fixo com Efeito de Movimento -->
+  <div class="background"></div>
+
+  <!-- 1 -  Área Principal em Formato de Celular -->
+  <main class="celular">
+    <section class="conteudo">
+      <h2>Receitas Deliciosas</h2><br>
+      <p><strong>A Cozinha de Baixo Desperdício (ou Zero Waste Cooking).</strong></p> <br>
+      <p> É uma prática culinária focada em minimizar o desperdício de alimentos, aproveitando integralmente os ingredientes, incluindo partes que normalmente seriam descartadas, como cascas, talos e sobras.<br> Esse conceito visa reduzir o impacto ambiental da cozinha, ajudando a economizar recursos e valorizar cada parte do alimento. <br>
+
+        Para cozinhar com baixo desperdício, métodos como o aproveitamento de sobras para criar caldos, pestos ou até doces são comuns. Além disso, essa abordagem incentiva a criatividade, pois permite transformar o que sobrou em novos pratos, promovendo uma alimentação mais consciente e sustentável. Ao adotar esse estilo de cozinha, o cozinheiro não só contribui para a redução de resíduos, mas também enriquece a nutrição das refeições, uma vez que muitas partes "descartáveis" contêm nutrientes valiosos. <br><br>
+        
+        Essa prática é uma tendência crescente, impulsionada pelo aumento da conscientização ambiental e o desejo de um estilo de vida mais responsável e econômico.</p>
+      <!-- Botões para abrir modais de receitas -->
+      <button onclick="mostrarReceita('receita1')" class="botao-externo">Receita - Bolo de Banana</button>
+     
+    </section>
+  </main>
+
+  <!-- Modais de Receitas -->
+  <!-- Modal para Receita 1 -->
+  <div id="receita1" class="modal">
+    <div class="modal-conteudo">
+      <span class="fechar" onclick="fecharModal('receita1')">&times;</span>
+      <h2>Receita 1: Bolo de Banana com casca</h2>
+      <p><strong>Ingredientes:</strong></p>
+      <ul>
+        <li>3 bananas maduras com casca (bem lavadas)</li>
+        <li>1/2 xícara de óleo vegetal</li>
+        <li>2 ovos</li>
+        <li>1 xícara de açúcar (ou outra opção de adoçante)</li>
+        <li>1 e 1/2 xícara de farinha de trigo (ou farinha integral para mais fibras)</li>
+        <li>1 colher de sopa de fermento em pó</li>
+        <li>Opcional: canela em pó, nozes ou gotas de chocolate para dar um toque especial</li>
+      </ul><br>
+      <p><strong>Modo de Preparo:</strong></p>
+      <p> <li>No liquidificador, bata as bananas inteiras (com casca), o óleo e os ovos até obter uma mistura homogênea.</li>
+        <li>Em uma tigela, misture o açúcar, a farinha e o fermento. Adicione a mistura do liquidificador e mexa delicadamente até incorporar.</li>
+        <li>Despeje em uma forma untada e asse em forno preaquecido a 180°C por cerca de 40 minutos, ou até dourar.</li>
+        </p>
+    </div>
+  </div>
+
+<!-- 2 - Área Principal em Formato de Celular -->
+<main class="celular">
+  <section class="conteudo">
+    <h2>Receitas Deliciosas</h2><br>
+    <p><strong>Receitas à Base de Plantas e Alternativas à Carne</strong></p><br>
+    <p>Receitas à base de plantas consistem em pratos onde os vegetais, legumes, grãos e outras fontes vegetais são os ingredientes principais, excluindo produtos de origem animal ou usando alternativas à carne, como tofu, tempeh, grão-de-bico e proteínas à base de plantas.<br> Esta prática tem ganhado popularidade devido ao impacto ambiental reduzido e aos benefícios para a saúde associados a uma alimentação mais baseada em vegetais.<br> Com essas alternativas, é possível recriar pratos tradicionais com versões mais leves e saudáveis, como hambúrgueres vegetais, "carnes" de jaca ou cogumelos, entre outros.</p>
+    <!-- Botões para abrir modais de receitas -->
+    <button onclick="mostrarReceita('receita2')" class="botao-externo">Receita - Hambuguer Vegetal </button>
+    
+  </section>
+</main>
+  <!-- Modal para Receita 2 -->
+  <div id="receita2" class="modal">
+    <div class="modal-conteudo">
+      <span class="fechar" onclick="fecharModal('receita2')">&times;</span>
+      <h2>Receita 2:  Hambúrguer Vegetal de Grão-de-Bico</h2>
+      <p><strong>Ingredientes:</strong></p>
+      <ul>
+        <li>1 xícara de grão-de-bico cozido</li>
+        <li>  1/2 xícara de aveia (ou farinha de aveia para dar liga)</li>
+        <li> 1/2 cebola pequena, picada</li>
+        <li> 1 dente de alho picado</li>
+        <li> 1/2 cenoura ralada</li>
+        <li> 1/4 de xícara de ervas frescas (salsa ou coentro)</li>
+        <li> Sal e pimenta a gosto</li>
+        <li> Azeite para grelhar</li>   
+      </ul><br>
+      <p><strong>Modo de Preparo:</strong></p><br>
+      <p> Amasse o grão-de-bico e misture com aveia, cebola, alho e cenoura ralada. Tempere a gosto e modele os hambúrgueres. Cozinhe em uma frigideira com um fio de azeite até dourar dos dois lados.</p>
+    </div>
+  </div>
+
+  <!-- Área Principal em Formato de Celular -->
+  <main class="celular">
+    <section class="conteudo">
+      <h2>Receitas Deliciosas</h2><br>
+      <p><strong>Batch Cooking e Refeições para a Semana</strong></p><br>
+      <p>Batch cooking é uma técnica de preparo de refeições onde grandes quantidades de comida são feitas de uma vez e distribuídas para consumo ao longo da semana.<br> É uma ótima opção para quem busca otimizar o tempo, garantir uma alimentação equilibrada e reduzir o desperdício, pois permite planejar e conservar refeições saudáveis de antemão.<br> Esse método inclui o preparo de alimentos básicos, como grãos e proteínas, que podem ser combinados em diferentes receitas durante a semana.</p>
+      <!-- Botões para abrir modais de receitas -->
+      <button onclick="mostrarReceita('receita3')" class="botao-externo">Receita - Tofu Mexido </button>
+      
+    </section>
+  </main>
+  <!-- Modal para Receita 3 -->
+  <div id="receita3" class="modal">
+    <div class="modal-conteudo">
+      <span class="fechar" onclick="fecharModal('receita3')">&times;</span>
+      <h2>Receita 3: Tofu Mexido com Legumes (Para Batch Cooking)</h2>
+      <p><strong>Ingredientes:</strong></p>
+      <ul>
+        <li>300g de tofu firme
+          <li>1/2 colher de chá de cúrcuma (para dar cor e sabor)</li>
+          <li>1 pimentão pequeno, picado</li>
+          <li>1/2 cebola pequena, picada</li>
+          <li>1 dente de alho, picado</li>
+          <li>1 xícara de espinafre fresco</li>
+          <li>1 colher de sopa de azeite</li>
+          <li>Sal e pimenta a gosto</li>
+      </ul><br>
+      <p><strong>Modo de Preparo:</strong></p>
+      <p>Esfarele o tofu e refogue com azeite, alho e cúrcuma para dar cor e sabor. Acrescente pimentão, cebola e espinafre e cozinhe até os vegetais amaciarem. Armazene em porções para aquecer e consumir ao longo da semana com acompanhamentos variados, como arroz integral ou quinoa.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- Rodapé -->
+<footer class="rodape">
+  <p>Este conteúdo foi desenvolvido com o suporte de uma inteligência artificial (IA).</p>
+</footer>
+
+</body>
+</html>
